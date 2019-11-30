@@ -1,0 +1,26 @@
+{
+  "name": "thio",
+  "version": "1.0.0",
+  "description": "Turn your HTML template into a readable tree of metadata elements—quite like a compiler.",
+  "main": "src/main.js",
+  "module": "src/main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jelhouss/thio.git"
+  },
+  "author": "Houssam Jelliti <jelitihoussam@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jelhouss/thio/issues"
+  },
+  "homepage": "https://github.com/jelhouss/thio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "mocha": "^6.2.2",
+    "rollup": "^1.25.2",
+    "should": "^13.2.3"
+  }
+}
