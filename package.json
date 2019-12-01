@@ -1,6 +1,6 @@
 {
   "name": "thio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn your HTML template into a readable tree of metadata elements",
   "main": "dist/thio-umd.js",
   "module": "dist/thio-esm.js",
