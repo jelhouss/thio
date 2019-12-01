@@ -1,7 +1,7 @@
 {
   "name": "thio",
   "version": "1.0.0",
-  "description": "Turn your HTML template into a readable tree of metadata elements—quite like a compiler.",
+  "description": "Turn your HTML template into a readable tree of metadata elements",
   "main": "src/main.js",
   "module": "src/main.js",
   "scripts": {
