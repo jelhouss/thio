@@ -16,7 +16,7 @@ $ npm install thio
 const thio = require("thio");
 ```
 
-With a module bundler like [rollup](http://rollupjs.org/) or [webpack](https://webpack.js.org/), use as you would anything else:
+With a module bundler like [rollup](http://rollupjs.org/) or [webpack](https://webpack.js.org/), you can use ES6 modules.
 
 ```javascript
 import thio from "thio";
@@ -47,7 +47,7 @@ console.log(tree);
 // ] }
 ```
 
-The children array will contain all children of each element, and if any nested element has children, it becomes the parent of these children.\
+The children array will contain all children of each element, and if any nested element has children, it becomes the parent of these children. Note that void elements does not have children, only props metadata.\
 Each tag except the `ROOT` has metadata that consist of giving more information about the tag (e.g. events, attributes, etc).
 
 - Data attributes follows the HTML specs on how to validate a data attribute. If the element has any data attribtues the `dataAttributes` array will be populated with objects depending on how many data attributes are there, and each object is a key-value pair of the attribute and its data value.
