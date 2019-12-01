@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/jelhouss/thio/blob/master/thio_pixelart_readme_img.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/jelhouss/thio/master/thio_pixelart_readme_img.png"></p>
 
 Thio (pronounced /thēō/ and stands for Turn HTML into Objects) is a simple implementation of an HTML compiler-like, it works on Node and the browser.\
 I wanted to understand how Vue.js virtual DOM works and it is actually about compiling HTML templates into tree of objects but more complicated than this because they depend on it to render a fully functional DOM. If you're curious about it [read the source code of the oldest version I found on GitHub](https://github.com/vuejs/vue/tree/0.10/src) I tried to follow with the code for nights and nights but then I gave up.\
