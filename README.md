@@ -25,7 +25,7 @@ import thio from "thio";
 The [UMD](https://github.com/umdjs/umd) build is also available on [unpkg](https://unpkg.com):
 
 ```html
-<script src="https://unpkg.com/thio/dist/thio.umd.js"></script>
+<script src="https://unpkg.com/thio/dist/thio-umd.js"></script>
 ```
 
 You can find the library on `window.thio`.

@@ -2,8 +2,8 @@
   "name": "thio",
   "version": "1.0.0",
   "description": "Turn your HTML template into a readable tree of metadata elements",
-  "main": "src/main.js",
-  "module": "src/main.js",
+  "main": "dist/thio-umd.js",
+  "module": "dist/thio-esm.js",
   "scripts": {
     "test": "mocha"
   },
