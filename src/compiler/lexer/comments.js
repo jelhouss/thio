@@ -4,11 +4,11 @@ export default ({ input, cursor, tokens }) => {
     input[cursor] !== undefined
   ) {
     // skip comments
-    cursor++;
+    cursor++
   }
   if (input.slice(cursor, cursor + 3) === '-->') {
-    cursor += 3;
+    cursor += 3
   }
 
-  return cursor;
-};
+  return cursor
+}

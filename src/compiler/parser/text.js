@@ -1,3 +1,3 @@
-export default token => ({
+export default (token) => ({
   Text: token.text
-});
+})

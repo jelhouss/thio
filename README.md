@@ -35,7 +35,7 @@ You can find the library on `window.thio`.
 ## API Documentation
 
 ```javascript
-const tree = thio("<p>I love Heath Ledger!</p>").then(tree => tree);
+const tree = thio("<p>I love Heath Ledger!</p>").then((tree) => tree);
 ```
 
 `tree` will contain an object with the initial or parent element that we call `ROOT` and an array of children.

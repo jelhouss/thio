@@ -1,4 +1,3 @@
-
 # Contributing
 
 We love when people help us out, it makes thio better.
@@ -11,42 +10,41 @@ Here are guides for submitting issues and pull requests.
 
 Issues let us know of things we should fix, things we should add, questions, etc.
 
-1) Head [here](https://github.com/jelhouss/thio/issues/new) to submit a new issue.
+1. Head [here](https://github.com/jelhouss/thio/issues/new) to submit a new issue.
 
-2) Include a descriptive title that is straight to the point.
+2. Include a descriptive title that is straight to the point.
 
-3) Write a detailed description on what the issue is all about.
+3. Write a detailed description on what the issue is all about.
 
-4) Wait for someone to get to the issue and add labels.
+4. Wait for someone to get to the issue and add labels.
 
-5) The issue will be fixed soon!
-
+5. The issue will be fixed soon!
 
 ### Pull Requests
 
 Pull Requests allow you to share your own code with us, and we can merge it into the main repo.
 
+1. Fork the repo.
 
-1) Fork the repo.
+2. Clone the repo **you forked** by running
 
-2) Clone the repo **you forked** by running
 ```sh
 $ git clone https://github.com/YOUR-USERNAME-HERE/thio.git
 ```
 
-3) Add a feature, fix something, etc.
+3. Add a feature, fix something, etc.
 
 **Fixing an Issue or Submitting an update**
 
 Have you found a solution to an issue? You got a better idea to add? a better API design? Here is how you can submit your version to thio.
 
-1) Fork the repo
+1. Fork the repo
 
-1) Head to your local fork of the repo, and click the "New Pull Request" button.
+1. Head to your local fork of the repo, and click the "New Pull Request" button.
 
-2) Include a title that is straight to the point.
+1. Include a title that is straight to the point.
 
-3) Your PR will be reviewed, and then it will be merged!
+1. Your PR will be reviewed, and then it will be merged!
 
 ## Contributor Code of Conduct
 
@@ -61,13 +59,13 @@ disability, personal appearance, body size, race, ethnicity, age, religion, or n
 
 Examples of unacceptable behavior by participants include:
 
-* The use of sexualized language or imagery
-* Personal attacks
-* Trolling or insulting/derogatory comments
-* Public or private harassment
-* Publishing other's private information, such as physical or electronic addresses, without explicit
+- The use of sexualized language or imagery
+- Personal attacks
+- Trolling or insulting/derogatory comments
+- Public or private harassment
+- Publishing other's private information, such as physical or electronic addresses, without explicit
   permission
-* Other unethical or unprofessional conduct.
+- Other unethical or unprofessional conduct.
 
 Project maintainers have the right and responsibility to remove, edit, or reject comments, commits,
 code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct. By
