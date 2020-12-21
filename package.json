@@ -1,16 +1,8 @@
 {
   "name": "thio",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Turn your HTML template into a readable tree of metadata elements",
-  "main": "dist/thio-umd.min.js",
-  "module": "dist/thio-esm.min.js",
-  "scripts": {
-    "test": "jest",
-    "lint": "standard",
-    "lint:fix": "standard --fix",
-    "bundle": "rollup --config bundle.js",
-    "compress": "node compress.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/jelhouss/thio.git"
@@ -20,11 +12,5 @@
   "bugs": {
     "url": "https://github.com/jelhouss/thio/issues"
   },
-  "homepage": "https://github.com/jelhouss/thio#readme",
-  "devDependencies": {
-    "jest": "^26.0.1",
-    "rollup": "^2.10.5",
-    "standard": "^14.3.4",
-    "terser": "^4.7.0"
-  }
+  "homepage": "https://github.com/jelhouss/thio#readme"
 }
