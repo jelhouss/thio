@@ -2,7 +2,14 @@
   "name": "thio",
   "version": "2.0.0",
   "description": "Turn your HTML template into a readable tree of metadata elements",
-  "scripts": {},
+  "source": "src/index.ts",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.modern.module.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "build:watch": "microbundle watch"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jelhouss/thio.git"
@@ -12,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jelhouss/thio/issues"
   },
-  "homepage": "https://github.com/jelhouss/thio#readme"
+  "homepage": "https://github.com/jelhouss/thio#readme",
+  "devDependencies": {
+    "microbundle": "^0.13.0"
+  }
 }
